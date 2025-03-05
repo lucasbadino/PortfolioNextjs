@@ -18,8 +18,8 @@ export const Navbar = () => {
                     {itemsNavbar.map((item) => {
                         return (
                             <div key={item.id}
-                                className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-orange-500/30
-                                ${pathName === item.link && "bg-orange-500/30"}`}
+                                className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-orange-500/50
+                                ${pathName === item.link && "bg-orange-500/50"}`}
                             >
                                 <Link href={item.link}>{item.icon}</Link>
                             </div>
