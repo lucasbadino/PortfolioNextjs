@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 html,
 body {
   padding: 0;
@@ -9,7 +10,13 @@ body {
 }
 
 main {
-  background: #393a47;
+  background: #212333;
   height: 100vh;
   height: 100dvh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
