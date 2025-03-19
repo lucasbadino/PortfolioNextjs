@@ -2,6 +2,8 @@ import { AvatarServices } from "@/components/avatar-services";
 import { CircleImage } from "@/components/circle-image";
 import { SliderServices } from "@/components/slider-services";
 import { TransitionPage } from "@/components/TransitionPage";
+import { redirect } from "next/dist/server/api-utils";
+import Link from "next/link";
 
 const ServicesPage = () => {
     return (
@@ -25,9 +27,14 @@ const ServicesPage = () => {
                         dolores in. Nesciunt, porro. Veniam eveniet assumenda quidem adipisci.
                         Inventore nihil ratione facilis cumque. Ipsum, deleniti.
                     </p>
-                    <button className="px-3 py-2 bg-orange-500 hover:bg-orange-600/50 cursor-pointer rounded-lg">
-                        Contacta conmigo
-                    </button>
+                    <Link href="/contact">
+                        <button
+                            className="px-3 py-2 bg-orange-500 hover:bg-orange-600/50 cursor-pointer rounded-lg"
+                        >
+
+                            Contacta conmigo
+                        </button>
+                    </Link>
                 </div>
                 <div className="">
                     <SliderServices />
