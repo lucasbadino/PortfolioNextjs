@@ -8,7 +8,7 @@ export const Introduction = () => {
     return (
         <div className='z-20 w-full bg-[#131424]/60'>
             <div className='z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2 md:gap-10 md:p-20'>
-                <Image src="/home-4.png" priority width="400" height="400" alt="Profile Image" />
+                <Image src="/avatar.png" priority width="400" height="400" alt="Profile Image" />
 
                 <div className='flex flex-col justify-center max-w-md md:max-w-lg'>
                     <h1 className='select-none mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10'>
