@@ -143,59 +143,31 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Vicnasol App",
+        image: "/vicnasol.png",
+        urlGithub: "https://github.com/Gi4ncarlo/ProyectoFinal-Henry",
+        urlDemo: "https://vicnasol-henry.vercel.app/",
+        technologies: [
+            "/nextjs.png",
+            "/react.png",
+            "/tailwind.png",
+            "/nestjs.png",
+            "/Postgresql.png"
+        ]
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "E-commerce Api",
+        image: "/programer.png",
+        urlGithub: "https://github.com/pi-rym/PM4BE-lucasbadino",
+        urlDemo: "https://poroyecto-backend.onrender.com/api",
+        technologies: [
+            "/nodejs.png",
+            "/nestjs.png",
+            "/postgresql.png",
+            "/docker.png"
+        ]
     }
 ];
+
 
