@@ -17,7 +17,7 @@ export const Introduction = () => {
                             sequence={[
                                 "puedes programarlo",
                                 1000,
-                                "puedes optimizalo",
+                                "puedes optimizarlo",
                                 1000,
                                 "puedes implementarlo",
                                 1000,

@@ -15,7 +15,7 @@ const PageAboutMe = () => {
                     className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10"
                 >
                     Toda mi {" "}
-                    <span className="font-bold text-orange-500 select-none">trayectoria profecional</span>
+                    <span className="font-bold text-orange-500 select-none">trayectoria profesional</span>
                 </h1>
                 <CounterServices />
                 <TimeLine />
