@@ -39,7 +39,7 @@ export const Introduction = () => {
                     </p>
                     <div className='flex justify-center items-center gap-5 md:justify-start md:gap-10'>
                         <Link
-                            href='/projects'
+                            href='/portfolio'
                             className='px-3 py-2 transition-all border-2 cursor-pointer 
                             text-md w-fit rounded-xl hover:shadow-xl 
                             hover:shadow-white/50'>
